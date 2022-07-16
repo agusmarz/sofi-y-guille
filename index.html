@@ -5,7 +5,7 @@
     <meta charset="utf-8">
 
     <!--====== Title ======-->
-    <title>Sofia & Guille</title>
+    <title>Sofi & Guille</title>
 
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -24,6 +24,10 @@
 
     <!--====== Style CSS ======-->
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/lightbox.min.css">
+
+    <script type="text/javascript" src="assets/js/lightbox-plus-jquery.min.js"></script>
 
 </head>
 
@@ -64,16 +68,13 @@
                                         <a class="page-scroll" href="#inicio">Inicio</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="page-scroll" href="#pareja">Pareja</a>
+                                        <a class="page-scroll" href="#evento">Evento</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="page-scroll" href="#Historia">Historia</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="page-scroll" href="#galeria">Galería</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="page-scroll" href="#evento">Evento</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="page-scroll" href="#spotify">Spotify</a>
@@ -93,9 +94,9 @@
                         <div class="col-lg-10">
                             <div class="slider_content text-center">
                                 <h5 class="slider_sub_title" data-animation="fadeInUp" data-delay="0.2s">ESTO ES PROVISORIO</h5>
-                                <h2 class="slider_title" data-animation="fadeInUp" data-delay="0.7s">Sofia <span>&</span> Guille</h2>
+                                <h2 class="slider_title" data-animation="fadeInUp" data-delay="0.7s">Sofi <span>&</span> Guille</h2>
                                 <span class="location" data-animation="fadeInUp" data-delay="1s">San Agustín, Santa Fe, Argentina</span>
-                                <p data-animation="fadeInUp" data-delay="1.4s"><img src="assets/images/header-shape-1.png" alt="Shape">4 de noviembre de 2022<img src="assets/images/header-shape-2.png" alt="Shape"></p>
+                                <p data-animation="fadeInUp" data-delay="1.4s"><img src="assets/images/header-shape-1.png" alt="Shape">05 de noviembre de 2022<img src="assets/images/header-shape-2.png" alt="Shape"></p>
                             </div> 
                         </div>
                     </div> 
@@ -104,7 +105,7 @@
         </div> 
     </section>
 
-    <section id="coming_soon" class="coming_soon_area pt-20 pb-70">
+    <section id="evento" class="coming_soon_area pt-20 pb-70">
         <div class="coming_soon_shape_1">
             <img src="assets/images/shape-1.png" alt="shape">
         </div> 
@@ -113,7 +114,7 @@
                <div class="col-lg-4">
                     <div class="section_title pt-50 wow fadeIn" data-wow-duration="1.3s" data-wow-delay="0.2s" style="visibility: visible; animation-duration: 1.3s; animation-delay: 0.2s; animation-name: fadeIn;">
                         <h3 class="title">Fecha</h3>
-                            <p>04 de noviembre 2022</p>
+                            <p>05 de noviembre 2022</p>
                                 <img src="assets/images/section_shape.png" alt="Shape">
                     </div> 
                 </div>
@@ -121,13 +122,13 @@
                                 <div class="wow fadeIn" data-wow-duration="1.3s" data-wow-delay="0.6s" data-countdown="2023/02/14" style="visibility: visible; animation-duration: 1.3s; animation-delay: 0.6s; animation-name: fadeIn;">
                                 <div class="coming_soon_count d-flex justify-content-between pt-20">
                                 <div class="single_count d-flex align-items-center justify-content-center mt-30">
-                                <div class="count_content"><span class="count">213</span><p class="times">Días</p></div></div>
+                                <div  class="count_content"><span id="dias" class="count"></span><p class="times">Días</p></div></div>
                                 <div class="single_count d-flex align-items-center justify-content-center mt-30">
-                                <div class="count_content"><span class="count">06</span><p class="times">Horas</p></div></div>
+                                <div  class="count_content"><span id="horas" class="count"></span><p class="times">Horas</p></div></div>
                                 <div class="single_count d-flex align-items-center justify-content-center mt-30">
-                                <div class="count_content"><span class="count">29</span><p class="times">Minutos</p></div></div>
+                                <div class="count_content"><span id="minutos" class="count" ></span><p class="times">Minutos</p></div></div>
                                 <div class="single_count d-flex align-items-center justify-content-center mt-30">
-                                <div class="count_content"><span class="count">13</span><p class="times">Segundos</p></div></div></div></div>
+                                <div  class="count_content"><span id="segundos" class="count"></span><p class="times">Segundos</p></div></div></div></div>
 </div>
 </div> 
 </div> 
@@ -156,7 +157,7 @@
                         <p><i class="lni lni-heart-filled"></i> 07 03 1855</p>
                     </div>
                     <div class="love_image order-md-first wow fadeInRightBig" data-wow-duration="1.3s" data-wow-delay="0.4s">
-                        <img src="assets/images/love-1.jpg" alt="love">
+                        <img src="assets/images/ejemplo.jpg" >
                     </div>
                 </div>
 
@@ -166,10 +167,10 @@
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna nose aaliquyam erat, sed diam voluptua. At vero eos et accusam justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea timata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum.</p>
                     </div>
                     <div class="love_date">
-                        <p><i class="lni lni-heart-filled"></i> 15 01 1960</p>
+                        <p><i class="lni lni-heart-filled"></i> 15/01 1960</p>
                     </div>
                     <div class="love_image wow fadeInLeftBig" data-wow-duration="1.3s" data-wow-delay="0.4s">
-                        <img src="assets/images/love-2.jpg" alt="love">
+                        <img src="assets/images/ejemplo.jpg">
                     </div>
                 </div> 
 
@@ -182,12 +183,126 @@
                         <p><i class="lni lni-heart-filled"></i> 01 01 2018</p>
                     </div>
                     <div class="love_image order-md-first wow fadeInRightBig" data-wow-duration="1.3s" data-wow-delay="0.4s">
-                        <img src="assets/images/love-3.jpg" alt="love">
+                        <img src="assets/images/ejemplo.jpg">
                     </div>
                 </div> 
             </div>
         </div> 
     </section>
+    <section id="galeria" class="gallery_area pt-120">
+<div class="container">
+<div class="row justify-content-center">
+<div class="col-lg-6">
+<div class="section_title text-center pb-30">
+<h3 class="title">Galería</h3>
+<img src="assets/images/section_shape.png" alt="Shape">
+</div> 
+</div>
+</div> 
+</div> 
+<div class="gallery_wrapper">
+<div class="container-fluid">
+<div class="row no-gutters">
+<div class="col-lg-3 col-sm-6">
+<div class="single_gallery">
+<div class="gallery_image">
+<img src="assets/images/ejemplo.jpg" alt="gallery">
+</div>
+<div class="gallery_content">
+<ul class="gallery_icon">
+<li><a class="image-popup" href="assets/images/ejemplo.jpg" data-lightbox="ejemplo1"><i class="lni lni-zoom-in"></i></a></li>
+</ul>
+</div>
+</div> 
+</div>
+<div class="col-lg-3 col-sm-6">
+<div class="single_gallery">
+<div class="gallery_image">
+<img src="assets/images/ejemplo.jpg" alt="gallery">
+</div>
+<div class="gallery_content">
+ <ul class="gallery_icon">
+<li><a class="image-popup" href="assets/images/ejemplo.jpg" data-lightbox="ejemplo1"><i class="lni lni-zoom-in"></i></a></li>
+</ul>
+</div>
+</div> 
+</div>
+<div class="col-lg-3 col-sm-6">
+<div class="single_gallery">
+<div class="gallery_image">
+<img src="assets/images/ejemplo.jpg" alt="gallery">
+</div>
+<div class="gallery_content">
+<ul class="gallery_icon">
+<li><a class="image-popup" href="assets/images/ejemplo.jpg" data-lightbox="ejemplo1"><i class="lni lni-zoom-in"></i></a></li>
+</ul>
+</div>
+</div> 
+</div>
+<div class="col-lg-3 col-sm-6">
+<div class="single_gallery">
+<div class="gallery_image">
+<img src="assets/images/ejemplo.jpg" alt="gallery">
+</div>
+<div class="gallery_content">
+<ul class="gallery_icon">
+<li><a class="image-popup" href="assets/images/ejemplo.jpg" data-lightbox="ejemplo1"><i class="lni lni-zoom-in"></i></a></li>
+</ul>
+</div>
+</div> 
+</div>
+<div class="col-lg-3 col-sm-6">
+<div class="single_gallery">
+<div class="gallery_image">
+<img src="assets/images/ejemplo.jpg" alt="gallery">
+</div>
+<div class="gallery_content">
+<ul class="gallery_icon">
+<li><a class="image-popup" href="assets/images/ejemplo.jpg" data-lightbox="ejemplo1"><i class="lni lni-zoom-in"></i></a></li>
+</ul>
+</div>
+</div> 
+</div>
+<div class="col-lg-3 col-sm-6">
+<div class="single_gallery">
+<div class="gallery_image">
+<img src="assets/images/ejemplo.jpg" alt="gallery">
+</div>
+<div class="gallery_content">
+<ul class="gallery_icon">
+<li><a class="image-popup" href="assets/images/ejemplo.jpg" data-lightbox="ejemplo1"><i class="lni lni-zoom-in"></i></a></li>
+</ul>
+</div>
+</div> 
+</div>
+<div class="col-lg-3 col-sm-6">
+<div class="single_gallery">
+<div class="gallery_image">
+<img src="assets/images/ejemplo.jpg" alt="gallery">
+</div>
+<div class="gallery_content">
+<ul class="gallery_icon">
+<li><a class="image-popup" href="assets/images/ejemplo.jpg" data-lightbox="ejemplo1"><i class="lni lni-zoom-in"></i></a></li>
+</ul>
+</div>
+</div> 
+</div>
+<div class="col-lg-3 col-sm-6">
+<div class="single_gallery">
+<div class="gallery_image">
+<img src="assets/images/ejemplo.jpg" alt="gallery">
+</div>
+ <div class="gallery_content">
+<ul class="gallery_icon">
+<li><a class="image-popup" href="assets/images/ejemplo.jpg" data-lightbox="ejemplo1"><i class="lni lni-zoom-in"></i></a></li>
+</ul>
+</div>
+</div> 
+</div>
+</div> 
+</div> 
+</div> 
+</section>
 
     <footer id="footer" class="footer_area">
         <div class="footer_shape_1">
@@ -197,14 +312,13 @@
         <div class="container">
             <div class="footer_widget pt-80 pb-80 text-center">
                 <div class="footer_title">
-                    <h3 class="title">Sofia <span>&</span> Guille</h3>
+                    <h3 class="title">Sofi <span>&</span> Guille</h3>
                 </div>
                 <ul class="footer_menu">
                     <li><a class="page-scroll" href="#inicio">Inicio</a></li>
-                    <li><a class="page-scroll" href="#pareja">Pareja</a></li>
+                    <li><a class="page-scroll" href="#evento">Evento</a></li>
                     <li><a class="page-scroll" href="#Historia">Historia</a></li>
                     <li><a class="page-scroll" href="#galeria">Galería</a></li>
-                    <li><a class="page-scroll" href="#evento">Evento</a></li>
                     <li><a class="page-scroll" href="#spotify">Spotify</a></li>
                 </ul>
             </div> 
@@ -231,6 +345,23 @@
     <!--====== Main js ======-->
     <script src="assets/js/main.js"></script>
 
+    <script>
+        var countDownDate = new Date("Nov 05, 2022 00:00:00").getTime();
+        var x = setInterval(function(){
+            var now = new Date().getTime();
+            var distance = countDownDate - now;
+
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            document.getElementById("dias").innerHTML = days;
+            document.getElementById("horas").innerHTML = hours;
+            document.getElementById("minutos").innerHTML = minutes;
+            document.getElementById("segundos").innerHTML = seconds;
+        },1000);
+    </script>
 </body>
 
 </html>
